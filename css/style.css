@@ -1,0 +1,138 @@
+body {
+    font-family: arial,sans-serif;
+    font-size: small;
+}
+
+/****************** Header *************/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 50px;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: block;
+    padding: 5px;
+    min-height: 50px;
+}
+
+li {
+    display: inline;
+    
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    color: #000000;
+    text-decoration: none;
+    float: right;
+}
+
+li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#sign-in {
+    border-radius: 2px;
+    background-color: #4485f6;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+/****************** Main Content *************/
+main {
+    margin: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.box {
+    border: 1px solid #dfe1e5;
+    display: flex;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 25px auto;
+    width: 500px;
+    padding-left: 14px;
+    padding: 5px 8px 0 16px;
+    flex: 1;
+}
+
+#sbox {
+    display: flex;
+    flex: 1;
+    border: none;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+.btns {
+    padding: 0 16px;
+    margin: 11px 4px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    color: #5F6368;
+    border-radius: 4px;
+    line-height: 27px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.offered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.offered a {
+    text-decoration: none;
+}
+
+/****************** Footer *************/
+footer {
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    line-height: 40px;
+    width: 100%;
+    color: rgba(0,0,0,.54);
+    font-size: 14px;
+    text-decoration: none;
+    height: 80px;
+}
+
+footer div {
+    border-top: 1px solid #e4e4e4;
+    height: 50%;
+}
+
+footer div .topf {
+    padding-left: 27px;
+    position: relative;
+    top: -15px;
+}
+
+footer a {
+    color: #5f6368;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+#fsr {
+    float: right;
+    margin-right: 25px;
+}
